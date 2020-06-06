@@ -10,6 +10,104 @@
 		A1D21B2B248C1F5A00BCE696 /* SwiftySwaggerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */; };
 		A1D21B30248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B2F248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift */; };
 		A1D21B32248C1F5A00BCE696 /* SwiftySwaggerPod.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D21B24248C1F5900BCE696 /* SwiftySwaggerPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D21BAF248C24B700BCE696 /* DefaultReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B3F248C24B700BCE696 /* DefaultReporter.swift */; };
+		A1D21BB0248C24B700BCE696 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B40248C24B700BCE696 /* Reporter.swift */; };
+		A1D21BB1248C24B700BCE696 /* DefaultGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B42248C24B700BCE696 /* DefaultGenerator.swift */; };
+		A1D21BB2248C24B700BCE696 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B43248C24B700BCE696 /* Generator.swift */; };
+		A1D21BB3248C24B700BCE696 /* RequestToWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B45248C24B700BCE696 /* RequestToWrite.swift */; };
+		A1D21BB4248C24B700BCE696 /* EntityToWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B46248C24B700BCE696 /* EntityToWrite.swift */; };
+		A1D21BB5248C24B700BCE696 /* ParametersToWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B47248C24B700BCE696 /* ParametersToWrite.swift */; };
+		A1D21BB6248C24B700BCE696 /* ModelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B48248C24B700BCE696 /* ModelGenerator.swift */; };
+		A1D21BB7248C24B700BCE696 /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B4A248C24B700BCE696 /* FileWriter.swift */; };
+		A1D21BB8248C24B700BCE696 /* AlamofireFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B4B248C24B700BCE696 /* AlamofireFileWriter.swift */; };
+		A1D21BB9248C24B700BCE696 /* MoyaFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B4C248C24B700BCE696 /* MoyaFileWriter.swift */; };
+		A1D21BBA248C24B700BCE696 /* DefaultFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B4D248C24B700BCE696 /* DefaultFileWriter.swift */; };
+		A1D21BBB248C24B700BCE696 /* URLSessionFileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B4E248C24B700BCE696 /* URLSessionFileWriter.swift */; };
+		A1D21BBC248C24B700BCE696 /* SwaggerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D21B50248C24B700BCE696 /* SwaggerKit.h */; };
+		A1D21BBD248C24B700BCE696 /* SwaggerExtensionsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B51248C24B700BCE696 /* SwaggerExtensionsContainer.swift */; };
+		A1D21BBE248C24B700BCE696 /* SwaggerEmbeddedExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B52248C24B700BCE696 /* SwaggerEmbeddedExample.swift */; };
+		A1D21BBF248C24B700BCE696 /* SwaggerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B53248C24B700BCE696 /* SwaggerError.swift */; };
+		A1D21BC0248C24B700BCE696 /* SwaggerVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B54248C24B700BCE696 /* SwaggerVersion.swift */; };
+		A1D21BC1248C24B700BCE696 /* SwaggerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B55248C24B700BCE696 /* SwaggerExample.swift */; };
+		A1D21BC2248C24B700BCE696 /* SwaggerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B56248C24B700BCE696 /* SwaggerOperation.swift */; };
+		A1D21BC3248C24B700BCE696 /* SwaggerExampleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B57248C24B700BCE696 /* SwaggerExampleContent.swift */; };
+		A1D21BC4248C24B700BCE696 /* SwaggerDocumentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B58248C24B700BCE696 /* SwaggerDocumentNode.swift */; };
+		A1D21BC5248C24B700BCE696 /* SwaggerServerVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B59248C24B700BCE696 /* SwaggerServerVariable.swift */; };
+		A1D21BC6248C24B700BCE696 /* SwaggerExternalDocumentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B5A248C24B700BCE696 /* SwaggerExternalDocumentation.swift */; };
+		A1D21BC7248C24B700BCE696 /* SwaggerOAuthFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B5C248C24B700BCE696 /* SwaggerOAuthFlow.swift */; };
+		A1D21BC8248C24B700BCE696 /* SwaggerOAuthAuthorizationCodeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B5D248C24B700BCE696 /* SwaggerOAuthAuthorizationCodeFlow.swift */; };
+		A1D21BC9248C24B700BCE696 /* SwaggerSecurityScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B5E248C24B700BCE696 /* SwaggerSecurityScheme.swift */; };
+		A1D21BCA248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B5F248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift */; };
+		A1D21BCB248C24B700BCE696 /* SwaggerSecuritySchemeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B60248C24B700BCE696 /* SwaggerSecuritySchemeType.swift */; };
+		A1D21BCC248C24B700BCE696 /* SwaggerSecurityAPIKeyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B61248C24B700BCE696 /* SwaggerSecurityAPIKeyLocation.swift */; };
+		A1D21BCD248C24B700BCE696 /* SwaggerOAuthFlows.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B62248C24B700BCE696 /* SwaggerOAuthFlows.swift */; };
+		A1D21BCE248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B63248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift */; };
+		A1D21BCF248C24B700BCE696 /* SwaggerDocumentContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B64248C24B700BCE696 /* SwaggerDocumentContext.swift */; };
+		A1D21BD0248C24B700BCE696 /* SwaggerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B65248C24B700BCE696 /* SwaggerComponent.swift */; };
+		A1D21BD1248C24B700BCE696 /* Swagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B66248C24B700BCE696 /* Swagger.swift */; };
+		A1D21BD2248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B68248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift */; };
+		A1D21BD3248C24B700BCE696 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B69248C24B700BCE696 /* String+Extensions.swift */; };
+		A1D21BD4248C24B700BCE696 /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6A248C24B700BCE696 /* Path+Extensions.swift */; };
+		A1D21BD5248C24B700BCE696 /* SingleValueDecodingContainer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6B248C24B700BCE696 /* SingleValueDecodingContainer+Extensions.swift */; };
+		A1D21BD6248C24B700BCE696 /* RangeReplaceableCollection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6C248C24B700BCE696 /* RangeReplaceableCollection+Extensions.swift */; };
+		A1D21BD7248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6D248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift */; };
+		A1D21BD8248C24B700BCE696 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6E248C24B700BCE696 /* Dictionary+Extensions.swift */; };
+		A1D21BD9248C24B700BCE696 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B6F248C24B700BCE696 /* Collection+Extensions.swift */; };
+		A1D21BDA248C24B700BCE696 /* SwaggerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B71248C24B700BCE696 /* SwaggerInfo.swift */; };
+		A1D21BDB248C24B700BCE696 /* SwaggerContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B72248C24B700BCE696 /* SwaggerContactInfo.swift */; };
+		A1D21BDC248C24B700BCE696 /* SwaggerLicenseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B73248C24B700BCE696 /* SwaggerLicenseInfo.swift */; };
+		A1D21BDD248C24B700BCE696 /* SwaggerSchemaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B75248C24B700BCE696 /* SwaggerSchemaMetadata.swift */; };
+		A1D21BDE248C24B700BCE696 /* SwaggerStringFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B76248C24B700BCE696 /* SwaggerStringFormat.swift */; };
+		A1D21BDF248C24B700BCE696 /* SwaggerIntegerSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B77248C24B700BCE696 /* SwaggerIntegerSchema.swift */; };
+		A1D21BE0248C24B700BCE696 /* SwaggerSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B78248C24B700BCE696 /* SwaggerSchema.swift */; };
+		A1D21BE1248C24B700BCE696 /* SwaggerNumberSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B79248C24B700BCE696 /* SwaggerNumberSchema.swift */; };
+		A1D21BE2248C24B700BCE696 /* SwaggerNumericSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7A248C24B700BCE696 /* SwaggerNumericSchema.swift */; };
+		A1D21BE3248C24B700BCE696 /* SwaggerObjectSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7B248C24B700BCE696 /* SwaggerObjectSchema.swift */; };
+		A1D21BE4248C24B700BCE696 /* SwaggerSchemaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7C248C24B700BCE696 /* SwaggerSchemaType.swift */; };
+		A1D21BE5248C24B700BCE696 /* SwaggerIntegerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7D248C24B700BCE696 /* SwaggerIntegerFormat.swift */; };
+		A1D21BE6248C24B700BCE696 /* SwaggerSchemaValueBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7E248C24B700BCE696 /* SwaggerSchemaValueBound.swift */; };
+		A1D21BE7248C24B700BCE696 /* SwaggerSchemaXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B7F248C24B700BCE696 /* SwaggerSchemaXML.swift */; };
+		A1D21BE8248C24B700BCE696 /* SwaggerStringSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B80248C24B700BCE696 /* SwaggerStringSchema.swift */; };
+		A1D21BE9248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B81248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift */; };
+		A1D21BEA248C24B700BCE696 /* SwaggerArraySchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B82248C24B700BCE696 /* SwaggerArraySchema.swift */; };
+		A1D21BEB248C24B700BCE696 /* SwaggerAnySchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B83248C24B700BCE696 /* SwaggerAnySchema.swift */; };
+		A1D21BEC248C24B700BCE696 /* SwaggerBooleanSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B84248C24B700BCE696 /* SwaggerBooleanSchema.swift */; };
+		A1D21BED248C24B700BCE696 /* SwaggerNumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B85248C24B700BCE696 /* SwaggerNumberFormat.swift */; };
+		A1D21BEE248C24B700BCE696 /* SwaggerRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B87248C24B700BCE696 /* SwaggerRequestBody.swift */; };
+		A1D21BEF248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B88248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift */; };
+		A1D21BF0248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B89248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift */; };
+		A1D21BF1248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B8A248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift */; };
+		A1D21BF2248C24B700BCE696 /* SwaggerReferenceRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B8B248C24B700BCE696 /* SwaggerReferenceRegistry.swift */; };
+		A1D21BF3248C24B700BCE696 /* SwaggerComponentRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B8C248C24B700BCE696 /* SwaggerComponentRegistry.swift */; };
+		A1D21BF4248C24B700BCE696 /* SwaggerComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B8D248C24B700BCE696 /* SwaggerComponents.swift */; };
+		A1D21BF5248C24B700BCE696 /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B8E248C24B700BCE696 /* AnyCodingKey.swift */; };
+		A1D21BF6248C24B700BCE696 /* SwaggerParameterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B90248C24B700BCE696 /* SwaggerParameterStyle.swift */; };
+		A1D21BF7248C24B700BCE696 /* SwaggerParameterSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B91248C24B700BCE696 /* SwaggerParameterSerialization.swift */; };
+		A1D21BF8248C24B700BCE696 /* SwaggerParameterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B92248C24B700BCE696 /* SwaggerParameterType.swift */; };
+		A1D21BF9248C24B700BCE696 /* SwaggerParameterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B93248C24B700BCE696 /* SwaggerParameterSchema.swift */; };
+		A1D21BFA248C24B700BCE696 /* SwaggerParameterMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B94248C24B700BCE696 /* SwaggerParameterMetadata.swift */; };
+		A1D21BFB248C24B700BCE696 /* SwaggerParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B95248C24B700BCE696 /* SwaggerParameter.swift */; };
+		A1D21BFC248C24B700BCE696 /* SwaggerMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B96248C24B700BCE696 /* SwaggerMediaType.swift */; };
+		A1D21BFD248C24B700BCE696 /* SwaggerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B97248C24B700BCE696 /* SwaggerPath.swift */; };
+		A1D21BFE248C24B700BCE696 /* SwaggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B98248C24B700BCE696 /* SwaggerSpec.swift */; };
+		A1D21BFF248C24B700BCE696 /* SwaggerCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B99248C24B700BCE696 /* SwaggerCallbacks.swift */; };
+		A1D21C00248C24B700BCE696 /* SwaggerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B9A248C24B700BCE696 /* SwaggerResponse.swift */; };
+		A1D21C01248C24B700BCE696 /* SwaggerReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B9B248C24B700BCE696 /* SwaggerReference.swift */; };
+		A1D21C02248C24B700BCE696 /* SwaggerComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B9C248C24B700BCE696 /* SwaggerComponentType.swift */; };
+		A1D21C03248C24B700BCE696 /* SwaggerServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B9D248C24B700BCE696 /* SwaggerServer.swift */; };
+		A1D21C04248C24B700BCE696 /* SwaggerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B9E248C24B700BCE696 /* SwaggerDocument.swift */; };
+		A1D21C05248C24B700BCE696 /* SwaggerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA0248C24B700BCE696 /* SwaggerHeader.swift */; };
+		A1D21C06248C24B700BCE696 /* SwaggerHeaderSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA1248C24B700BCE696 /* SwaggerHeaderSerialization.swift */; };
+		A1D21C07248C24B700BCE696 /* SwaggerHeaderSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA2248C24B700BCE696 /* SwaggerHeaderSchema.swift */; };
+		A1D21C08248C24B700BCE696 /* SwaggerHeaderMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA3248C24B700BCE696 /* SwaggerHeaderMetadata.swift */; };
+		A1D21C09248C24B700BCE696 /* SwaggerTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA4248C24B700BCE696 /* SwaggerTag.swift */; };
+		A1D21C0A248C24B700BCE696 /* JSONDecoder+CodingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA6248C24B700BCE696 /* JSONDecoder+CodingPath.swift */; };
+		A1D21C0B248C24B700BCE696 /* YAMLDecoder+CodingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA7248C24B700BCE696 /* YAMLDecoder+CodingPath.swift */; };
+		A1D21C0C248C24B700BCE696 /* CodingPathWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA8248C24B700BCE696 /* CodingPathWrapper.swift */; };
+		A1D21C0D248C24B700BCE696 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA9248C24B700BCE696 /* AnyCodable.swift */; };
+		A1D21C0E248C24B700BCE696 /* GenerateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */; };
+		A1D21C0F248C24B700BCE696 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BAD248C24B700BCE696 /* main.swift */; };
+		A1D21C10248C24B700BCE696 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1D21BAE248C24B700BCE696 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +127,104 @@
 		A1D21B2A248C1F5A00BCE696 /* SwiftySwaggerPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySwaggerPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D21B2F248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwaggerPodTests.swift; sourceTree = "<group>"; };
 		A1D21B31248C1F5A00BCE696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D21B3F248C24B700BCE696 /* DefaultReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultReporter.swift; sourceTree = "<group>"; };
+		A1D21B40248C24B700BCE696 /* Reporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
+		A1D21B42248C24B700BCE696 /* DefaultGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultGenerator.swift; sourceTree = "<group>"; };
+		A1D21B43248C24B700BCE696 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		A1D21B45248C24B700BCE696 /* RequestToWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestToWrite.swift; sourceTree = "<group>"; };
+		A1D21B46248C24B700BCE696 /* EntityToWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityToWrite.swift; sourceTree = "<group>"; };
+		A1D21B47248C24B700BCE696 /* ParametersToWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersToWrite.swift; sourceTree = "<group>"; };
+		A1D21B48248C24B700BCE696 /* ModelGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelGenerator.swift; sourceTree = "<group>"; };
+		A1D21B4A248C24B700BCE696 /* FileWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
+		A1D21B4B248C24B700BCE696 /* AlamofireFileWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireFileWriter.swift; sourceTree = "<group>"; };
+		A1D21B4C248C24B700BCE696 /* MoyaFileWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaFileWriter.swift; sourceTree = "<group>"; };
+		A1D21B4D248C24B700BCE696 /* DefaultFileWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFileWriter.swift; sourceTree = "<group>"; };
+		A1D21B4E248C24B700BCE696 /* URLSessionFileWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionFileWriter.swift; sourceTree = "<group>"; };
+		A1D21B50248C24B700BCE696 /* SwaggerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwaggerKit.h; sourceTree = "<group>"; };
+		A1D21B51248C24B700BCE696 /* SwaggerExtensionsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerExtensionsContainer.swift; sourceTree = "<group>"; };
+		A1D21B52248C24B700BCE696 /* SwaggerEmbeddedExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerEmbeddedExample.swift; sourceTree = "<group>"; };
+		A1D21B53248C24B700BCE696 /* SwaggerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerError.swift; sourceTree = "<group>"; };
+		A1D21B54248C24B700BCE696 /* SwaggerVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerVersion.swift; sourceTree = "<group>"; };
+		A1D21B55248C24B700BCE696 /* SwaggerExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerExample.swift; sourceTree = "<group>"; };
+		A1D21B56248C24B700BCE696 /* SwaggerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerOperation.swift; sourceTree = "<group>"; };
+		A1D21B57248C24B700BCE696 /* SwaggerExampleContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerExampleContent.swift; sourceTree = "<group>"; };
+		A1D21B58248C24B700BCE696 /* SwaggerDocumentNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerDocumentNode.swift; sourceTree = "<group>"; };
+		A1D21B59248C24B700BCE696 /* SwaggerServerVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerServerVariable.swift; sourceTree = "<group>"; };
+		A1D21B5A248C24B700BCE696 /* SwaggerExternalDocumentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerExternalDocumentation.swift; sourceTree = "<group>"; };
+		A1D21B5C248C24B700BCE696 /* SwaggerOAuthFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerOAuthFlow.swift; sourceTree = "<group>"; };
+		A1D21B5D248C24B700BCE696 /* SwaggerOAuthAuthorizationCodeFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerOAuthAuthorizationCodeFlow.swift; sourceTree = "<group>"; };
+		A1D21B5E248C24B700BCE696 /* SwaggerSecurityScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSecurityScheme.swift; sourceTree = "<group>"; };
+		A1D21B5F248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerOAuthImplicitFlow.swift; sourceTree = "<group>"; };
+		A1D21B60248C24B700BCE696 /* SwaggerSecuritySchemeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSecuritySchemeType.swift; sourceTree = "<group>"; };
+		A1D21B61248C24B700BCE696 /* SwaggerSecurityAPIKeyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSecurityAPIKeyLocation.swift; sourceTree = "<group>"; };
+		A1D21B62248C24B700BCE696 /* SwaggerOAuthFlows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerOAuthFlows.swift; sourceTree = "<group>"; };
+		A1D21B63248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSecurityHTTPScheme.swift; sourceTree = "<group>"; };
+		A1D21B64248C24B700BCE696 /* SwaggerDocumentContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerDocumentContext.swift; sourceTree = "<group>"; };
+		A1D21B65248C24B700BCE696 /* SwaggerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerComponent.swift; sourceTree = "<group>"; };
+		A1D21B66248C24B700BCE696 /* Swagger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swagger.swift; sourceTree = "<group>"; };
+		A1D21B68248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainerProtocol+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B69248C24B700BCE696 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6A248C24B700BCE696 /* Path+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6B248C24B700BCE696 /* SingleValueDecodingContainer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SingleValueDecodingContainer+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6C248C24B700BCE696 /* RangeReplaceableCollection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RangeReplaceableCollection+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6D248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnkeyedDecodingContainer+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6E248C24B700BCE696 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B6F248C24B700BCE696 /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		A1D21B71248C24B700BCE696 /* SwaggerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerInfo.swift; sourceTree = "<group>"; };
+		A1D21B72248C24B700BCE696 /* SwaggerContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerContactInfo.swift; sourceTree = "<group>"; };
+		A1D21B73248C24B700BCE696 /* SwaggerLicenseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerLicenseInfo.swift; sourceTree = "<group>"; };
+		A1D21B75248C24B700BCE696 /* SwaggerSchemaMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchemaMetadata.swift; sourceTree = "<group>"; };
+		A1D21B76248C24B700BCE696 /* SwaggerStringFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerStringFormat.swift; sourceTree = "<group>"; };
+		A1D21B77248C24B700BCE696 /* SwaggerIntegerSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerIntegerSchema.swift; sourceTree = "<group>"; };
+		A1D21B78248C24B700BCE696 /* SwaggerSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchema.swift; sourceTree = "<group>"; };
+		A1D21B79248C24B700BCE696 /* SwaggerNumberSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerNumberSchema.swift; sourceTree = "<group>"; };
+		A1D21B7A248C24B700BCE696 /* SwaggerNumericSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerNumericSchema.swift; sourceTree = "<group>"; };
+		A1D21B7B248C24B700BCE696 /* SwaggerObjectSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerObjectSchema.swift; sourceTree = "<group>"; };
+		A1D21B7C248C24B700BCE696 /* SwaggerSchemaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchemaType.swift; sourceTree = "<group>"; };
+		A1D21B7D248C24B700BCE696 /* SwaggerIntegerFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerIntegerFormat.swift; sourceTree = "<group>"; };
+		A1D21B7E248C24B700BCE696 /* SwaggerSchemaValueBound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchemaValueBound.swift; sourceTree = "<group>"; };
+		A1D21B7F248C24B700BCE696 /* SwaggerSchemaXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchemaXML.swift; sourceTree = "<group>"; };
+		A1D21B80248C24B700BCE696 /* SwaggerStringSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerStringSchema.swift; sourceTree = "<group>"; };
+		A1D21B81248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSchemaDiscriminator.swift; sourceTree = "<group>"; };
+		A1D21B82248C24B700BCE696 /* SwaggerArraySchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerArraySchema.swift; sourceTree = "<group>"; };
+		A1D21B83248C24B700BCE696 /* SwaggerAnySchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerAnySchema.swift; sourceTree = "<group>"; };
+		A1D21B84248C24B700BCE696 /* SwaggerBooleanSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerBooleanSchema.swift; sourceTree = "<group>"; };
+		A1D21B85248C24B700BCE696 /* SwaggerNumberFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerNumberFormat.swift; sourceTree = "<group>"; };
+		A1D21B87248C24B700BCE696 /* SwaggerRequestBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerRequestBody.swift; sourceTree = "<group>"; };
+		A1D21B88248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerRequestBodyMediaType.swift; sourceTree = "<group>"; };
+		A1D21B89248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerRequestBodyEncodingStyle.swift; sourceTree = "<group>"; };
+		A1D21B8A248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerRequestBodyEncoding.swift; sourceTree = "<group>"; };
+		A1D21B8B248C24B700BCE696 /* SwaggerReferenceRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerReferenceRegistry.swift; sourceTree = "<group>"; };
+		A1D21B8C248C24B700BCE696 /* SwaggerComponentRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerComponentRegistry.swift; sourceTree = "<group>"; };
+		A1D21B8D248C24B700BCE696 /* SwaggerComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerComponents.swift; sourceTree = "<group>"; };
+		A1D21B8E248C24B700BCE696 /* AnyCodingKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
+		A1D21B90248C24B700BCE696 /* SwaggerParameterStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameterStyle.swift; sourceTree = "<group>"; };
+		A1D21B91248C24B700BCE696 /* SwaggerParameterSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameterSerialization.swift; sourceTree = "<group>"; };
+		A1D21B92248C24B700BCE696 /* SwaggerParameterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameterType.swift; sourceTree = "<group>"; };
+		A1D21B93248C24B700BCE696 /* SwaggerParameterSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameterSchema.swift; sourceTree = "<group>"; };
+		A1D21B94248C24B700BCE696 /* SwaggerParameterMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameterMetadata.swift; sourceTree = "<group>"; };
+		A1D21B95248C24B700BCE696 /* SwaggerParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerParameter.swift; sourceTree = "<group>"; };
+		A1D21B96248C24B700BCE696 /* SwaggerMediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerMediaType.swift; sourceTree = "<group>"; };
+		A1D21B97248C24B700BCE696 /* SwaggerPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerPath.swift; sourceTree = "<group>"; };
+		A1D21B98248C24B700BCE696 /* SwaggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerSpec.swift; sourceTree = "<group>"; };
+		A1D21B99248C24B700BCE696 /* SwaggerCallbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerCallbacks.swift; sourceTree = "<group>"; };
+		A1D21B9A248C24B700BCE696 /* SwaggerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerResponse.swift; sourceTree = "<group>"; };
+		A1D21B9B248C24B700BCE696 /* SwaggerReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerReference.swift; sourceTree = "<group>"; };
+		A1D21B9C248C24B700BCE696 /* SwaggerComponentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerComponentType.swift; sourceTree = "<group>"; };
+		A1D21B9D248C24B700BCE696 /* SwaggerServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerServer.swift; sourceTree = "<group>"; };
+		A1D21B9E248C24B700BCE696 /* SwaggerDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerDocument.swift; sourceTree = "<group>"; };
+		A1D21BA0248C24B700BCE696 /* SwaggerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerHeader.swift; sourceTree = "<group>"; };
+		A1D21BA1248C24B700BCE696 /* SwaggerHeaderSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerHeaderSerialization.swift; sourceTree = "<group>"; };
+		A1D21BA2248C24B700BCE696 /* SwaggerHeaderSchema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerHeaderSchema.swift; sourceTree = "<group>"; };
+		A1D21BA3248C24B700BCE696 /* SwaggerHeaderMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerHeaderMetadata.swift; sourceTree = "<group>"; };
+		A1D21BA4248C24B700BCE696 /* SwaggerTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwaggerTag.swift; sourceTree = "<group>"; };
+		A1D21BA6248C24B700BCE696 /* JSONDecoder+CodingPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+CodingPath.swift"; sourceTree = "<group>"; };
+		A1D21BA7248C24B700BCE696 /* YAMLDecoder+CodingPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YAMLDecoder+CodingPath.swift"; sourceTree = "<group>"; };
+		A1D21BA8248C24B700BCE696 /* CodingPathWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodingPathWrapper.swift; sourceTree = "<group>"; };
+		A1D21BA9248C24B700BCE696 /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommand.swift; sourceTree = "<group>"; };
+		A1D21BAD248C24B700BCE696 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A1D21BAE248C24B700BCE696 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +249,7 @@
 		A1D21B17248C1F5900BCE696 = {
 			isa = PBXGroup;
 			children = (
+				A1D21B3B248C247300BCE696 /* Sources */,
 				A1D21B23248C1F5900BCE696 /* SwiftySwaggerPod */,
 				A1D21B2E248C1F5A00BCE696 /* SwiftySwaggerPodTests */,
 				A1D21B22248C1F5900BCE696 /* Products */,
@@ -86,6 +283,247 @@
 			path = SwiftySwaggerPodTests;
 			sourceTree = "<group>";
 		};
+		A1D21B3B248C247300BCE696 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B3C248C24B700BCE696 /* SwiftySwagger */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A1D21B3C248C24B700BCE696 /* SwiftySwagger */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B3D248C24B700BCE696 /* Core */,
+				A1D21BAA248C24B700BCE696 /* CLI */,
+				A1D21BAE248C24B700BCE696 /* Info.plist */,
+			);
+			path = SwiftySwagger;
+			sourceTree = "<group>";
+		};
+		A1D21B3D248C24B700BCE696 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B3E248C24B700BCE696 /* Reporter */,
+				A1D21B41248C24B700BCE696 /* SourceGenerator */,
+				A1D21B49248C24B700BCE696 /* FileWriter */,
+				A1D21B4F248C24B700BCE696 /* Parser */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A1D21B3E248C24B700BCE696 /* Reporter */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B3F248C24B700BCE696 /* DefaultReporter.swift */,
+				A1D21B40248C24B700BCE696 /* Reporter.swift */,
+			);
+			path = Reporter;
+			sourceTree = "<group>";
+		};
+		A1D21B41248C24B700BCE696 /* SourceGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B42248C24B700BCE696 /* DefaultGenerator.swift */,
+				A1D21B43248C24B700BCE696 /* Generator.swift */,
+				A1D21B44248C24B700BCE696 /* Models */,
+				A1D21B48248C24B700BCE696 /* ModelGenerator.swift */,
+			);
+			path = SourceGenerator;
+			sourceTree = "<group>";
+		};
+		A1D21B44248C24B700BCE696 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B45248C24B700BCE696 /* RequestToWrite.swift */,
+				A1D21B46248C24B700BCE696 /* EntityToWrite.swift */,
+				A1D21B47248C24B700BCE696 /* ParametersToWrite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1D21B49248C24B700BCE696 /* FileWriter */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B4A248C24B700BCE696 /* FileWriter.swift */,
+				A1D21B4B248C24B700BCE696 /* AlamofireFileWriter.swift */,
+				A1D21B4C248C24B700BCE696 /* MoyaFileWriter.swift */,
+				A1D21B4D248C24B700BCE696 /* DefaultFileWriter.swift */,
+				A1D21B4E248C24B700BCE696 /* URLSessionFileWriter.swift */,
+			);
+			path = FileWriter;
+			sourceTree = "<group>";
+		};
+		A1D21B4F248C24B700BCE696 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B50248C24B700BCE696 /* SwaggerKit.h */,
+				A1D21B51248C24B700BCE696 /* SwaggerExtensionsContainer.swift */,
+				A1D21B52248C24B700BCE696 /* SwaggerEmbeddedExample.swift */,
+				A1D21B53248C24B700BCE696 /* SwaggerError.swift */,
+				A1D21B54248C24B700BCE696 /* SwaggerVersion.swift */,
+				A1D21B55248C24B700BCE696 /* SwaggerExample.swift */,
+				A1D21B56248C24B700BCE696 /* SwaggerOperation.swift */,
+				A1D21B57248C24B700BCE696 /* SwaggerExampleContent.swift */,
+				A1D21B58248C24B700BCE696 /* SwaggerDocumentNode.swift */,
+				A1D21B59248C24B700BCE696 /* SwaggerServerVariable.swift */,
+				A1D21B5A248C24B700BCE696 /* SwaggerExternalDocumentation.swift */,
+				A1D21B5B248C24B700BCE696 /* SecurityScheme */,
+				A1D21B64248C24B700BCE696 /* SwaggerDocumentContext.swift */,
+				A1D21B65248C24B700BCE696 /* SwaggerComponent.swift */,
+				A1D21B66248C24B700BCE696 /* Swagger.swift */,
+				A1D21B67248C24B700BCE696 /* Extensions */,
+				A1D21B70248C24B700BCE696 /* Info */,
+				A1D21B74248C24B700BCE696 /* Schema */,
+				A1D21B86248C24B700BCE696 /* RequestBody */,
+				A1D21B8B248C24B700BCE696 /* SwaggerReferenceRegistry.swift */,
+				A1D21B8C248C24B700BCE696 /* SwaggerComponentRegistry.swift */,
+				A1D21B8D248C24B700BCE696 /* SwaggerComponents.swift */,
+				A1D21B8E248C24B700BCE696 /* AnyCodingKey.swift */,
+				A1D21B8F248C24B700BCE696 /* Parameter */,
+				A1D21B96248C24B700BCE696 /* SwaggerMediaType.swift */,
+				A1D21B97248C24B700BCE696 /* SwaggerPath.swift */,
+				A1D21B98248C24B700BCE696 /* SwaggerSpec.swift */,
+				A1D21B99248C24B700BCE696 /* SwaggerCallbacks.swift */,
+				A1D21B9A248C24B700BCE696 /* SwaggerResponse.swift */,
+				A1D21B9B248C24B700BCE696 /* SwaggerReference.swift */,
+				A1D21B9C248C24B700BCE696 /* SwaggerComponentType.swift */,
+				A1D21B9D248C24B700BCE696 /* SwaggerServer.swift */,
+				A1D21B9E248C24B700BCE696 /* SwaggerDocument.swift */,
+				A1D21B9F248C24B700BCE696 /* Header */,
+				A1D21BA4248C24B700BCE696 /* SwaggerTag.swift */,
+				A1D21BA5248C24B700BCE696 /* CodingPath */,
+				A1D21BA9248C24B700BCE696 /* AnyCodable.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		A1D21B5B248C24B700BCE696 /* SecurityScheme */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B5C248C24B700BCE696 /* SwaggerOAuthFlow.swift */,
+				A1D21B5D248C24B700BCE696 /* SwaggerOAuthAuthorizationCodeFlow.swift */,
+				A1D21B5E248C24B700BCE696 /* SwaggerSecurityScheme.swift */,
+				A1D21B5F248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift */,
+				A1D21B60248C24B700BCE696 /* SwaggerSecuritySchemeType.swift */,
+				A1D21B61248C24B700BCE696 /* SwaggerSecurityAPIKeyLocation.swift */,
+				A1D21B62248C24B700BCE696 /* SwaggerOAuthFlows.swift */,
+				A1D21B63248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift */,
+			);
+			path = SecurityScheme;
+			sourceTree = "<group>";
+		};
+		A1D21B67248C24B700BCE696 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B68248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift */,
+				A1D21B69248C24B700BCE696 /* String+Extensions.swift */,
+				A1D21B6A248C24B700BCE696 /* Path+Extensions.swift */,
+				A1D21B6B248C24B700BCE696 /* SingleValueDecodingContainer+Extensions.swift */,
+				A1D21B6C248C24B700BCE696 /* RangeReplaceableCollection+Extensions.swift */,
+				A1D21B6D248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift */,
+				A1D21B6E248C24B700BCE696 /* Dictionary+Extensions.swift */,
+				A1D21B6F248C24B700BCE696 /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1D21B70248C24B700BCE696 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B71248C24B700BCE696 /* SwaggerInfo.swift */,
+				A1D21B72248C24B700BCE696 /* SwaggerContactInfo.swift */,
+				A1D21B73248C24B700BCE696 /* SwaggerLicenseInfo.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		A1D21B74248C24B700BCE696 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B75248C24B700BCE696 /* SwaggerSchemaMetadata.swift */,
+				A1D21B76248C24B700BCE696 /* SwaggerStringFormat.swift */,
+				A1D21B77248C24B700BCE696 /* SwaggerIntegerSchema.swift */,
+				A1D21B78248C24B700BCE696 /* SwaggerSchema.swift */,
+				A1D21B79248C24B700BCE696 /* SwaggerNumberSchema.swift */,
+				A1D21B7A248C24B700BCE696 /* SwaggerNumericSchema.swift */,
+				A1D21B7B248C24B700BCE696 /* SwaggerObjectSchema.swift */,
+				A1D21B7C248C24B700BCE696 /* SwaggerSchemaType.swift */,
+				A1D21B7D248C24B700BCE696 /* SwaggerIntegerFormat.swift */,
+				A1D21B7E248C24B700BCE696 /* SwaggerSchemaValueBound.swift */,
+				A1D21B7F248C24B700BCE696 /* SwaggerSchemaXML.swift */,
+				A1D21B80248C24B700BCE696 /* SwaggerStringSchema.swift */,
+				A1D21B81248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift */,
+				A1D21B82248C24B700BCE696 /* SwaggerArraySchema.swift */,
+				A1D21B83248C24B700BCE696 /* SwaggerAnySchema.swift */,
+				A1D21B84248C24B700BCE696 /* SwaggerBooleanSchema.swift */,
+				A1D21B85248C24B700BCE696 /* SwaggerNumberFormat.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		A1D21B86248C24B700BCE696 /* RequestBody */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B87248C24B700BCE696 /* SwaggerRequestBody.swift */,
+				A1D21B88248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift */,
+				A1D21B89248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift */,
+				A1D21B8A248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift */,
+			);
+			path = RequestBody;
+			sourceTree = "<group>";
+		};
+		A1D21B8F248C24B700BCE696 /* Parameter */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21B90248C24B700BCE696 /* SwaggerParameterStyle.swift */,
+				A1D21B91248C24B700BCE696 /* SwaggerParameterSerialization.swift */,
+				A1D21B92248C24B700BCE696 /* SwaggerParameterType.swift */,
+				A1D21B93248C24B700BCE696 /* SwaggerParameterSchema.swift */,
+				A1D21B94248C24B700BCE696 /* SwaggerParameterMetadata.swift */,
+				A1D21B95248C24B700BCE696 /* SwaggerParameter.swift */,
+			);
+			path = Parameter;
+			sourceTree = "<group>";
+		};
+		A1D21B9F248C24B700BCE696 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21BA0248C24B700BCE696 /* SwaggerHeader.swift */,
+				A1D21BA1248C24B700BCE696 /* SwaggerHeaderSerialization.swift */,
+				A1D21BA2248C24B700BCE696 /* SwaggerHeaderSchema.swift */,
+				A1D21BA3248C24B700BCE696 /* SwaggerHeaderMetadata.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A1D21BA5248C24B700BCE696 /* CodingPath */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21BA6248C24B700BCE696 /* JSONDecoder+CodingPath.swift */,
+				A1D21BA7248C24B700BCE696 /* YAMLDecoder+CodingPath.swift */,
+				A1D21BA8248C24B700BCE696 /* CodingPathWrapper.swift */,
+			);
+			path = CodingPath;
+			sourceTree = "<group>";
+		};
+		A1D21BAA248C24B700BCE696 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21BAB248C24B700BCE696 /* Commands */,
+				A1D21BAD248C24B700BCE696 /* main.swift */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		A1D21BAB248C24B700BCE696 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +531,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D21BBC248C24B700BCE696 /* SwaggerKit.h in Headers */,
 				A1D21B32248C1F5A00BCE696 /* SwiftySwaggerPod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +617,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D21C10248C24B700BCE696 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +635,102 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D21BE2248C24B700BCE696 /* SwaggerNumericSchema.swift in Sources */,
+				A1D21BD5248C24B700BCE696 /* SingleValueDecodingContainer+Extensions.swift in Sources */,
+				A1D21C0A248C24B700BCE696 /* JSONDecoder+CodingPath.swift in Sources */,
+				A1D21BCA248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift in Sources */,
+				A1D21C08248C24B700BCE696 /* SwaggerHeaderMetadata.swift in Sources */,
+				A1D21BE1248C24B700BCE696 /* SwaggerNumberSchema.swift in Sources */,
+				A1D21BBD248C24B700BCE696 /* SwaggerExtensionsContainer.swift in Sources */,
+				A1D21BBB248C24B700BCE696 /* URLSessionFileWriter.swift in Sources */,
+				A1D21C07248C24B700BCE696 /* SwaggerHeaderSchema.swift in Sources */,
+				A1D21BD6248C24B700BCE696 /* RangeReplaceableCollection+Extensions.swift in Sources */,
+				A1D21BB0248C24B700BCE696 /* Reporter.swift in Sources */,
+				A1D21BF0248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift in Sources */,
+				A1D21BF3248C24B700BCE696 /* SwaggerComponentRegistry.swift in Sources */,
+				A1D21BF5248C24B700BCE696 /* AnyCodingKey.swift in Sources */,
+				A1D21BD3248C24B700BCE696 /* String+Extensions.swift in Sources */,
+				A1D21BF4248C24B700BCE696 /* SwaggerComponents.swift in Sources */,
+				A1D21BB2248C24B700BCE696 /* Generator.swift in Sources */,
+				A1D21BE8248C24B700BCE696 /* SwaggerStringSchema.swift in Sources */,
+				A1D21C09248C24B700BCE696 /* SwaggerTag.swift in Sources */,
+				A1D21BAF248C24B700BCE696 /* DefaultReporter.swift in Sources */,
+				A1D21BC2248C24B700BCE696 /* SwaggerOperation.swift in Sources */,
+				A1D21BFD248C24B700BCE696 /* SwaggerPath.swift in Sources */,
+				A1D21C01248C24B700BCE696 /* SwaggerReference.swift in Sources */,
+				A1D21C06248C24B700BCE696 /* SwaggerHeaderSerialization.swift in Sources */,
+				A1D21C0C248C24B700BCE696 /* CodingPathWrapper.swift in Sources */,
+				A1D21BB9248C24B700BCE696 /* MoyaFileWriter.swift in Sources */,
+				A1D21BEB248C24B700BCE696 /* SwaggerAnySchema.swift in Sources */,
+				A1D21BEF248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift in Sources */,
+				A1D21BBA248C24B700BCE696 /* DefaultFileWriter.swift in Sources */,
+				A1D21BF7248C24B700BCE696 /* SwaggerParameterSerialization.swift in Sources */,
+				A1D21BCB248C24B700BCE696 /* SwaggerSecuritySchemeType.swift in Sources */,
+				A1D21BE9248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift in Sources */,
+				A1D21BBF248C24B700BCE696 /* SwaggerError.swift in Sources */,
+				A1D21BEC248C24B700BCE696 /* SwaggerBooleanSchema.swift in Sources */,
+				A1D21BEE248C24B700BCE696 /* SwaggerRequestBody.swift in Sources */,
+				A1D21BE3248C24B700BCE696 /* SwaggerObjectSchema.swift in Sources */,
+				A1D21BCF248C24B700BCE696 /* SwaggerDocumentContext.swift in Sources */,
+				A1D21BB8248C24B700BCE696 /* AlamofireFileWriter.swift in Sources */,
+				A1D21C00248C24B700BCE696 /* SwaggerResponse.swift in Sources */,
+				A1D21BC7248C24B700BCE696 /* SwaggerOAuthFlow.swift in Sources */,
+				A1D21C0E248C24B700BCE696 /* GenerateCommand.swift in Sources */,
+				A1D21BCE248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift in Sources */,
+				A1D21BDD248C24B700BCE696 /* SwaggerSchemaMetadata.swift in Sources */,
+				A1D21BB1248C24B700BCE696 /* DefaultGenerator.swift in Sources */,
+				A1D21BCD248C24B700BCE696 /* SwaggerOAuthFlows.swift in Sources */,
+				A1D21BE4248C24B700BCE696 /* SwaggerSchemaType.swift in Sources */,
+				A1D21BD4248C24B700BCE696 /* Path+Extensions.swift in Sources */,
+				A1D21BD2248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift in Sources */,
+				A1D21BE7248C24B700BCE696 /* SwaggerSchemaXML.swift in Sources */,
+				A1D21BC4248C24B700BCE696 /* SwaggerDocumentNode.swift in Sources */,
+				A1D21BE5248C24B700BCE696 /* SwaggerIntegerFormat.swift in Sources */,
+				A1D21BD9248C24B700BCE696 /* Collection+Extensions.swift in Sources */,
+				A1D21BDE248C24B700BCE696 /* SwaggerStringFormat.swift in Sources */,
+				A1D21BEA248C24B700BCE696 /* SwaggerArraySchema.swift in Sources */,
+				A1D21BF6248C24B700BCE696 /* SwaggerParameterStyle.swift in Sources */,
+				A1D21BE0248C24B700BCE696 /* SwaggerSchema.swift in Sources */,
+				A1D21BC9248C24B700BCE696 /* SwaggerSecurityScheme.swift in Sources */,
+				A1D21BDC248C24B700BCE696 /* SwaggerLicenseInfo.swift in Sources */,
+				A1D21BFF248C24B700BCE696 /* SwaggerCallbacks.swift in Sources */,
+				A1D21BE6248C24B700BCE696 /* SwaggerSchemaValueBound.swift in Sources */,
+				A1D21BB3248C24B700BCE696 /* RequestToWrite.swift in Sources */,
+				A1D21BC1248C24B700BCE696 /* SwaggerExample.swift in Sources */,
+				A1D21BFA248C24B700BCE696 /* SwaggerParameterMetadata.swift in Sources */,
+				A1D21BD8248C24B700BCE696 /* Dictionary+Extensions.swift in Sources */,
+				A1D21BB5248C24B700BCE696 /* ParametersToWrite.swift in Sources */,
+				A1D21BC5248C24B700BCE696 /* SwaggerServerVariable.swift in Sources */,
+				A1D21BD7248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift in Sources */,
+				A1D21BDA248C24B700BCE696 /* SwaggerInfo.swift in Sources */,
+				A1D21BFE248C24B700BCE696 /* SwaggerSpec.swift in Sources */,
+				A1D21BBE248C24B700BCE696 /* SwaggerEmbeddedExample.swift in Sources */,
+				A1D21BF9248C24B700BCE696 /* SwaggerParameterSchema.swift in Sources */,
+				A1D21BDF248C24B700BCE696 /* SwaggerIntegerSchema.swift in Sources */,
+				A1D21BFC248C24B700BCE696 /* SwaggerMediaType.swift in Sources */,
+				A1D21C02248C24B700BCE696 /* SwaggerComponentType.swift in Sources */,
+				A1D21C0F248C24B700BCE696 /* main.swift in Sources */,
+				A1D21C05248C24B700BCE696 /* SwaggerHeader.swift in Sources */,
+				A1D21BC6248C24B700BCE696 /* SwaggerExternalDocumentation.swift in Sources */,
+				A1D21BB7248C24B700BCE696 /* FileWriter.swift in Sources */,
+				A1D21C04248C24B700BCE696 /* SwaggerDocument.swift in Sources */,
+				A1D21BFB248C24B700BCE696 /* SwaggerParameter.swift in Sources */,
+				A1D21BED248C24B700BCE696 /* SwaggerNumberFormat.swift in Sources */,
+				A1D21BF1248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift in Sources */,
+				A1D21BD1248C24B700BCE696 /* Swagger.swift in Sources */,
+				A1D21C03248C24B700BCE696 /* SwaggerServer.swift in Sources */,
+				A1D21BB4248C24B700BCE696 /* EntityToWrite.swift in Sources */,
+				A1D21BC3248C24B700BCE696 /* SwaggerExampleContent.swift in Sources */,
+				A1D21BC8248C24B700BCE696 /* SwaggerOAuthAuthorizationCodeFlow.swift in Sources */,
+				A1D21C0D248C24B700BCE696 /* AnyCodable.swift in Sources */,
+				A1D21BC0248C24B700BCE696 /* SwaggerVersion.swift in Sources */,
+				A1D21BF2248C24B700BCE696 /* SwaggerReferenceRegistry.swift in Sources */,
+				A1D21BCC248C24B700BCE696 /* SwaggerSecurityAPIKeyLocation.swift in Sources */,
+				A1D21BD0248C24B700BCE696 /* SwaggerComponent.swift in Sources */,
+				A1D21C0B248C24B700BCE696 /* YAMLDecoder+CodingPath.swift in Sources */,
+				A1D21BB6248C24B700BCE696 /* ModelGenerator.swift in Sources */,
+				A1D21BDB248C24B700BCE696 /* SwaggerContactInfo.swift in Sources */,
+				A1D21BF8248C24B700BCE696 /* SwaggerParameterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +924,7 @@
 		A1D21B39248C1F5A00BCE696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SN8928G4U;
 				INFOPLIST_FILE = SwiftySwaggerPodTests/Info.plist;
@@ -406,6 +943,7 @@
 		A1D21B3A248C1F5A00BCE696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SN8928G4U;
 				INFOPLIST_FILE = SwiftySwaggerPodTests/Info.plist;
