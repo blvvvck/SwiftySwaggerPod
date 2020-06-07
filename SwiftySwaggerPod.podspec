@@ -10,11 +10,8 @@ Pod::Spec.new do |spec|
 
     spec.swift_version = '5.0'
 
-    spec.source_files = 'Sources/SwiftySwagger/Core/SourceGenerator/DefaultGenerator.swift'
+    spec.source_files = 'SwiftySwaggerPod/*'
     spec.frameworks = 'Foundation'
 
     spec.ios.deployment_target = "10.0"
-    spec.osx.deployment_target = "10.12"
-    spec.watchos.deployment_target = "3.0"
-    spec.tvos.deployment_target = "10.0"
 end

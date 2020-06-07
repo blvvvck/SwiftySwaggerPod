@@ -1,0 +1,25 @@
+PODS:
+  - PathKit (0.9.2)
+  - Stencil (0.13.1):
+    - PathKit (~> 0.9.0)
+  - Yams (2.0.0)
+
+DEPENDENCIES:
+  - PathKit
+  - Stencil
+  - Yams
+
+SPEC REPOS:
+  trunk:
+    - PathKit
+    - Stencil
+    - Yams
+
+SPEC CHECKSUMS:
+  PathKit: 273f59a38e3218eb95abd9f6a61730a8bcfd2f06
+  Stencil: b5128a0a43ece9225db5cbd94d6569fe6fba609b
+  Yams: cb96472112d99e4b368f8dae9ab62e8a3eb8a3f9
+
+PODFILE CHECKSUM: 17a864572ba1b3a25d7b76c70c56627483d89d5f
+
+COCOAPODS: 1.9.1

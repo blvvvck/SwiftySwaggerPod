@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1D21B2B248C1F5A00BCE696 /* SwiftySwaggerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */; };
-		A1D21B30248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B2F248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift */; };
 		A1D21B32248C1F5A00BCE696 /* SwiftySwaggerPod.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D21B24248C1F5900BCE696 /* SwiftySwaggerPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1D21BAF248C24B700BCE696 /* DefaultReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B3F248C24B700BCE696 /* DefaultReporter.swift */; };
 		A1D21BB0248C24B700BCE696 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21B40248C24B700BCE696 /* Reporter.swift */; };
@@ -116,30 +114,14 @@
 		A1D21C52248C2A9900BCE696 /* Filters+Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C47248C2A9900BCE696 /* Filters+Numbers.swift */; };
 		A1D21C53248C2A9900BCE696 /* CallMacroNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C48248C2A9900BCE696 /* CallMacroNodes.swift */; };
 		A1D21C54248C2A9900BCE696 /* StencilSwiftTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C49248C2A9900BCE696 /* StencilSwiftTemplate.swift */; };
-		E06FEF8ACDD793378E50C3BC /* Pods_SwiftySwaggerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */; platformFilter = maccatalyst; };
-		E778546240D872517260A6AD /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A1D21B2C248C1F5A00BCE696 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1D21B18248C1F5900BCE696 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1D21B20248C1F5900BCE696;
-			remoteInfo = SwiftySwaggerPod;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.release.xcconfig"; sourceTree = "<group>"; };
-		508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; sourceTree = "<group>"; };
-		6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySwaggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		094290576DC13485285E7EC8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DD482407BA144C3092BEE08 /* Pods-SwiftySwaggerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.release.xcconfig"; sourceTree = "<group>"; };
+		992D07E4BE275754E14F2CAF /* Pods_SwiftySwaggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySwaggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySwaggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D21B24248C1F5900BCE696 /* SwiftySwaggerPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftySwaggerPod.h; sourceTree = "<group>"; };
-		A1D21B25248C1F5900BCE696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1D21B2A248C1F5A00BCE696 /* SwiftySwaggerPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySwaggerPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1D21B2F248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwaggerPodTests.swift; sourceTree = "<group>"; };
-		A1D21B31248C1F5A00BCE696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1D21B3F248C24B700BCE696 /* DefaultReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultReporter.swift; sourceTree = "<group>"; };
 		A1D21B40248C24B700BCE696 /* Reporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
 		A1D21B42248C24B700BCE696 /* DefaultGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultGenerator.swift; sourceTree = "<group>"; };
@@ -246,9 +228,8 @@
 		A1D21C47248C2A9900BCE696 /* Filters+Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filters+Numbers.swift"; sourceTree = "<group>"; };
 		A1D21C48248C2A9900BCE696 /* CallMacroNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMacroNodes.swift; sourceTree = "<group>"; };
 		A1D21C49248C2A9900BCE696 /* StencilSwiftTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StencilSwiftTemplate.swift; sourceTree = "<group>"; };
-		D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3B1EEEC040674762ED6174 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6ACC7AF24EB0FE79E916A88 /* Pods-SwiftySwaggerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,29 +237,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E06FEF8ACDD793378E50C3BC /* Pods_SwiftySwaggerPod.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1D21B27248C1F5A00BCE696 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1D21B2B248C1F5A00BCE696 /* SwiftySwaggerPod.framework in Frameworks */,
-				E778546240D872517260A6AD /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D569D89415FFC3CEA7CB4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992D07E4BE275754E14F2CAF /* Pods_SwiftySwaggerPod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2B1E31F314F6C346BC92784D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */,
-				2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */,
-				E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */,
-				508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */,
+				D6ACC7AF24EB0FE79E916A88 /* Pods-SwiftySwaggerPod.debug.xcconfig */,
+				5DD482407BA144C3092BEE08 /* Pods-SwiftySwaggerPod.release.xcconfig */,
+				BB3B1EEEC040674762ED6174 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */,
+				094290576DC13485285E7EC8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -286,12 +265,10 @@
 		A1D21B17248C1F5900BCE696 = {
 			isa = PBXGroup;
 			children = (
-				A1D21B3B248C247300BCE696 /* Sources */,
 				A1D21B23248C1F5900BCE696 /* SwiftySwaggerPod */,
-				A1D21B2E248C1F5A00BCE696 /* SwiftySwaggerPodTests */,
 				A1D21B22248C1F5900BCE696 /* Products */,
 				2B1E31F314F6C346BC92784D /* Pods */,
-				B589A9EBDA75FE6CB5B8E43D /* Frameworks */,
+				00D569D89415FFC3CEA7CB4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */,
-				A1D21B2A248C1F5A00BCE696 /* SwiftySwaggerPodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,19 +283,10 @@
 		A1D21B23248C1F5900BCE696 /* SwiftySwaggerPod */ = {
 			isa = PBXGroup;
 			children = (
+				A1D21B3B248C247300BCE696 /* Sources */,
 				A1D21B24248C1F5900BCE696 /* SwiftySwaggerPod.h */,
-				A1D21B25248C1F5900BCE696 /* Info.plist */,
 			);
 			path = SwiftySwaggerPod;
-			sourceTree = "<group>";
-		};
-		A1D21B2E248C1F5A00BCE696 /* SwiftySwaggerPodTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1D21B2F248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift */,
-				A1D21B31248C1F5A00BCE696 /* Info.plist */,
-			);
-			path = SwiftySwaggerPodTests;
 			sourceTree = "<group>";
 		};
 		A1D21B3B248C247300BCE696 /* Sources */ = {
@@ -571,15 +538,6 @@
 			path = StencilSwiftKit;
 			sourceTree = "<group>";
 		};
-		B589A9EBDA75FE6CB5B8E43D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */,
-				D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -599,7 +557,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D21B35248C1F5A00BCE696 /* Build configuration list for PBXNativeTarget "SwiftySwaggerPod" */;
 			buildPhases = (
-				29C6BF50E9E1EDADEC35B5EF /* [CP] Check Pods Manifest.lock */,
+				8C399EB76F1C67CE22FF407B /* [CP] Check Pods Manifest.lock */,
 				A1D21B1C248C1F5900BCE696 /* Headers */,
 				A1D21B1D248C1F5900BCE696 /* Sources */,
 				A1D21B1E248C1F5900BCE696 /* Frameworks */,
@@ -614,26 +572,6 @@
 			productReference = A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A1D21B29248C1F5A00BCE696 /* SwiftySwaggerPodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A1D21B38248C1F5A00BCE696 /* Build configuration list for PBXNativeTarget "SwiftySwaggerPodTests" */;
-			buildPhases = (
-				C4839A740893D349AF28500A /* [CP] Check Pods Manifest.lock */,
-				A1D21B26248C1F5A00BCE696 /* Sources */,
-				A1D21B27248C1F5A00BCE696 /* Frameworks */,
-				A1D21B28248C1F5A00BCE696 /* Resources */,
-				58D81B6A4F63AD902E57580C /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1D21B2D248C1F5A00BCE696 /* PBXTargetDependency */,
-			);
-			name = SwiftySwaggerPodTests;
-			productName = SwiftySwaggerPodTests;
-			productReference = A1D21B2A248C1F5A00BCE696 /* SwiftySwaggerPodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -645,9 +583,6 @@
 				ORGANIZATIONNAME = "Мухамметзянов Ринат Зиннурович";
 				TargetAttributes = {
 					A1D21B20248C1F5900BCE696 = {
-						CreatedOnToolsVersion = 11.5;
-					};
-					A1D21B29248C1F5A00BCE696 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -666,7 +601,6 @@
 			projectRoot = "";
 			targets = (
 				A1D21B20248C1F5900BCE696 /* SwiftySwaggerPod */,
-				A1D21B29248C1F5A00BCE696 /* SwiftySwaggerPodTests */,
 			);
 		};
 /* End PBXProject section */
@@ -679,17 +613,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D21B28248C1F5A00BCE696 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29C6BF50E9E1EDADEC35B5EF /* [CP] Check Pods Manifest.lock */ = {
+		8C399EB76F1C67CE22FF407B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -705,45 +632,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftySwaggerPod-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58D81B6A4F63AD902E57580C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4839A740893D349AF28500A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -865,23 +753,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D21B26248C1F5A00BCE696 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1D21B30248C1F5A00BCE696 /* SwiftySwaggerPodTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A1D21B2D248C1F5A00BCE696 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A1D21B20248C1F5900BCE696 /* SwiftySwaggerPod */;
-			targetProxy = A1D21B2C248C1F5A00BCE696 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A1D21B33248C1F5A00BCE696 /* Debug */ = {
@@ -942,6 +814,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -998,6 +871,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1006,7 +880,7 @@
 		};
 		A1D21B36248C1F5A00BCE696 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */;
+			baseConfigurationReference = D6ACC7AF24EB0FE79E916A88 /* Pods-SwiftySwaggerPod.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -1024,7 +898,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1032,7 +906,7 @@
 		};
 		A1D21B37248C1F5A00BCE696 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */;
+			baseConfigurationReference = 5DD482407BA144C3092BEE08 /* Pods-SwiftySwaggerPod.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -1050,47 +924,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A1D21B39248C1F5A00BCE696 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SN8928G4U;
-				INFOPLIST_FILE = SwiftySwaggerPodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A1D21B3A248C1F5A00BCE696 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SN8928G4U;
-				INFOPLIST_FILE = SwiftySwaggerPodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1113,15 +947,6 @@
 			buildConfigurations = (
 				A1D21B36248C1F5A00BCE696 /* Debug */,
 				A1D21B37248C1F5A00BCE696 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A1D21B38248C1F5A00BCE696 /* Build configuration list for PBXNativeTarget "SwiftySwaggerPodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1D21B39248C1F5A00BCE696 /* Debug */,
-				A1D21B3A248C1F5A00BCE696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
