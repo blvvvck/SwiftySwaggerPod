@@ -7,6 +7,10 @@ target 'SwiftySwaggerPod' do
 
   # Pods for SwiftySwaggerPod
 
+pod 'PathKit'
+pod 'Stencil'
+pod 'Yams'
+pod 'SwiftCLI'
   target 'SwiftySwaggerPodTests' do
     # Pods for testing
   end

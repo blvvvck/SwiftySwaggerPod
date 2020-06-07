@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,9 +105,19 @@
 		A1D21C0B248C24B700BCE696 /* YAMLDecoder+CodingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA7248C24B700BCE696 /* YAMLDecoder+CodingPath.swift */; };
 		A1D21C0C248C24B700BCE696 /* CodingPathWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA8248C24B700BCE696 /* CodingPathWrapper.swift */; };
 		A1D21C0D248C24B700BCE696 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BA9248C24B700BCE696 /* AnyCodable.swift */; };
-		A1D21C0E248C24B700BCE696 /* GenerateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */; };
-		A1D21C0F248C24B700BCE696 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21BAD248C24B700BCE696 /* main.swift */; };
-		A1D21C10248C24B700BCE696 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1D21BAE248C24B700BCE696 /* Info.plist */; };
+		A1D21C4A248C2A9900BCE696 /* Filters+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C3F248C2A9900BCE696 /* Filters+Strings.swift */; };
+		A1D21C4B248C2A9900BCE696 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C40248C2A9900BCE696 /* Parameters.swift */; };
+		A1D21C4C248C2A9900BCE696 /* SetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C41248C2A9900BCE696 /* SetNode.swift */; };
+		A1D21C4D248C2A9900BCE696 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C42248C2A9900BCE696 /* Environment.swift */; };
+		A1D21C4E248C2A9900BCE696 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C43248C2A9900BCE696 /* Context.swift */; };
+		A1D21C4F248C2A9900BCE696 /* MapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C44248C2A9900BCE696 /* MapNode.swift */; };
+		A1D21C50248C2A9900BCE696 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C45248C2A9900BCE696 /* Filters.swift */; };
+		A1D21C51248C2A9900BCE696 /* SwiftIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C46248C2A9900BCE696 /* SwiftIdentifier.swift */; };
+		A1D21C52248C2A9900BCE696 /* Filters+Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C47248C2A9900BCE696 /* Filters+Numbers.swift */; };
+		A1D21C53248C2A9900BCE696 /* CallMacroNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C48248C2A9900BCE696 /* CallMacroNodes.swift */; };
+		A1D21C54248C2A9900BCE696 /* StencilSwiftTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D21C49248C2A9900BCE696 /* StencilSwiftTemplate.swift */; };
+		E06FEF8ACDD793378E50C3BC /* Pods_SwiftySwaggerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */; platformFilter = maccatalyst; };
+		E778546240D872517260A6AD /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +131,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.release.xcconfig"; sourceTree = "<group>"; };
+		508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySwaggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D21B21248C1F5900BCE696 /* SwiftySwaggerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySwaggerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D21B24248C1F5900BCE696 /* SwiftySwaggerPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftySwaggerPod.h; sourceTree = "<group>"; };
 		A1D21B25248C1F5900BCE696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,9 +235,20 @@
 		A1D21BA7248C24B700BCE696 /* YAMLDecoder+CodingPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YAMLDecoder+CodingPath.swift"; sourceTree = "<group>"; };
 		A1D21BA8248C24B700BCE696 /* CodingPathWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodingPathWrapper.swift; sourceTree = "<group>"; };
 		A1D21BA9248C24B700BCE696 /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
-		A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommand.swift; sourceTree = "<group>"; };
-		A1D21BAD248C24B700BCE696 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A1D21BAE248C24B700BCE696 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D21C3F248C2A9900BCE696 /* Filters+Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filters+Strings.swift"; sourceTree = "<group>"; };
+		A1D21C40248C2A9900BCE696 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		A1D21C41248C2A9900BCE696 /* SetNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetNode.swift; sourceTree = "<group>"; };
+		A1D21C42248C2A9900BCE696 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		A1D21C43248C2A9900BCE696 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		A1D21C44248C2A9900BCE696 /* MapNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapNode.swift; sourceTree = "<group>"; };
+		A1D21C45248C2A9900BCE696 /* Filters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		A1D21C46248C2A9900BCE696 /* SwiftIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIdentifier.swift; sourceTree = "<group>"; };
+		A1D21C47248C2A9900BCE696 /* Filters+Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filters+Numbers.swift"; sourceTree = "<group>"; };
+		A1D21C48248C2A9900BCE696 /* CallMacroNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMacroNodes.swift; sourceTree = "<group>"; };
+		A1D21C49248C2A9900BCE696 /* StencilSwiftTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StencilSwiftTemplate.swift; sourceTree = "<group>"; };
+		D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftySwaggerPod.debug.xcconfig"; path = "Target Support Files/Pods-SwiftySwaggerPod/Pods-SwiftySwaggerPod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06FEF8ACDD793378E50C3BC /* Pods_SwiftySwaggerPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,12 +265,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D21B2B248C1F5A00BCE696 /* SwiftySwaggerPod.framework in Frameworks */,
+				E778546240D872517260A6AD /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1E31F314F6C346BC92784D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */,
+				2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */,
+				E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */,
+				508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A1D21B17248C1F5900BCE696 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +290,8 @@
 				A1D21B23248C1F5900BCE696 /* SwiftySwaggerPod */,
 				A1D21B2E248C1F5A00BCE696 /* SwiftySwaggerPodTests */,
 				A1D21B22248C1F5900BCE696 /* Products */,
+				2B1E31F314F6C346BC92784D /* Pods */,
+				B589A9EBDA75FE6CB5B8E43D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,7 +335,6 @@
 			children = (
 				A1D21B3D248C24B700BCE696 /* Core */,
 				A1D21BAA248C24B700BCE696 /* CLI */,
-				A1D21BAE248C24B700BCE696 /* Info.plist */,
 			);
 			path = SwiftySwagger;
 			sourceTree = "<group>";
@@ -510,18 +548,36 @@
 		A1D21BAA248C24B700BCE696 /* CLI */ = {
 			isa = PBXGroup;
 			children = (
-				A1D21BAB248C24B700BCE696 /* Commands */,
-				A1D21BAD248C24B700BCE696 /* main.swift */,
+				A1D21C3E248C2A9900BCE696 /* StencilSwiftKit */,
 			);
 			path = CLI;
 			sourceTree = "<group>";
 		};
-		A1D21BAB248C24B700BCE696 /* Commands */ = {
+		A1D21C3E248C2A9900BCE696 /* StencilSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				A1D21BAC248C24B700BCE696 /* GenerateCommand.swift */,
+				A1D21C3F248C2A9900BCE696 /* Filters+Strings.swift */,
+				A1D21C40248C2A9900BCE696 /* Parameters.swift */,
+				A1D21C41248C2A9900BCE696 /* SetNode.swift */,
+				A1D21C42248C2A9900BCE696 /* Environment.swift */,
+				A1D21C43248C2A9900BCE696 /* Context.swift */,
+				A1D21C44248C2A9900BCE696 /* MapNode.swift */,
+				A1D21C45248C2A9900BCE696 /* Filters.swift */,
+				A1D21C46248C2A9900BCE696 /* SwiftIdentifier.swift */,
+				A1D21C47248C2A9900BCE696 /* Filters+Numbers.swift */,
+				A1D21C48248C2A9900BCE696 /* CallMacroNodes.swift */,
+				A1D21C49248C2A9900BCE696 /* StencilSwiftTemplate.swift */,
 			);
-			path = Commands;
+			path = StencilSwiftKit;
+			sourceTree = "<group>";
+		};
+		B589A9EBDA75FE6CB5B8E43D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E7357E24CDD3F156E551FBF /* Pods_SwiftySwaggerPod.framework */,
+				D2332461080E2EB5B31844B3 /* Pods_SwiftySwaggerPod_SwiftySwaggerPodTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,6 +599,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D21B35248C1F5A00BCE696 /* Build configuration list for PBXNativeTarget "SwiftySwaggerPod" */;
 			buildPhases = (
+				29C6BF50E9E1EDADEC35B5EF /* [CP] Check Pods Manifest.lock */,
 				A1D21B1C248C1F5900BCE696 /* Headers */,
 				A1D21B1D248C1F5900BCE696 /* Sources */,
 				A1D21B1E248C1F5900BCE696 /* Frameworks */,
@@ -561,9 +618,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D21B38248C1F5A00BCE696 /* Build configuration list for PBXNativeTarget "SwiftySwaggerPodTests" */;
 			buildPhases = (
+				C4839A740893D349AF28500A /* [CP] Check Pods Manifest.lock */,
 				A1D21B26248C1F5A00BCE696 /* Sources */,
 				A1D21B27248C1F5A00BCE696 /* Frameworks */,
 				A1D21B28248C1F5A00BCE696 /* Resources */,
+				58D81B6A4F63AD902E57580C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -617,7 +676,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D21C10248C24B700BCE696 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +688,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29C6BF50E9E1EDADEC35B5EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftySwaggerPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D81B6A4F63AD902E57580C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4839A740893D349AF28500A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftySwaggerPod-SwiftySwaggerPodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1D21B1D248C1F5900BCE696 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -641,6 +763,7 @@
 				A1D21BCA248C24B700BCE696 /* SwaggerOAuthImplicitFlow.swift in Sources */,
 				A1D21C08248C24B700BCE696 /* SwaggerHeaderMetadata.swift in Sources */,
 				A1D21BE1248C24B700BCE696 /* SwaggerNumberSchema.swift in Sources */,
+				A1D21C4D248C2A9900BCE696 /* Environment.swift in Sources */,
 				A1D21BBD248C24B700BCE696 /* SwaggerExtensionsContainer.swift in Sources */,
 				A1D21BBB248C24B700BCE696 /* URLSessionFileWriter.swift in Sources */,
 				A1D21C07248C24B700BCE696 /* SwaggerHeaderSchema.swift in Sources */,
@@ -648,10 +771,12 @@
 				A1D21BB0248C24B700BCE696 /* Reporter.swift in Sources */,
 				A1D21BF0248C24B700BCE696 /* SwaggerRequestBodyEncodingStyle.swift in Sources */,
 				A1D21BF3248C24B700BCE696 /* SwaggerComponentRegistry.swift in Sources */,
+				A1D21C4F248C2A9900BCE696 /* MapNode.swift in Sources */,
 				A1D21BF5248C24B700BCE696 /* AnyCodingKey.swift in Sources */,
 				A1D21BD3248C24B700BCE696 /* String+Extensions.swift in Sources */,
 				A1D21BF4248C24B700BCE696 /* SwaggerComponents.swift in Sources */,
 				A1D21BB2248C24B700BCE696 /* Generator.swift in Sources */,
+				A1D21C50248C2A9900BCE696 /* Filters.swift in Sources */,
 				A1D21BE8248C24B700BCE696 /* SwaggerStringSchema.swift in Sources */,
 				A1D21C09248C24B700BCE696 /* SwaggerTag.swift in Sources */,
 				A1D21BAF248C24B700BCE696 /* DefaultReporter.swift in Sources */,
@@ -665,6 +790,7 @@
 				A1D21BEF248C24B700BCE696 /* SwaggerRequestBodyMediaType.swift in Sources */,
 				A1D21BBA248C24B700BCE696 /* DefaultFileWriter.swift in Sources */,
 				A1D21BF7248C24B700BCE696 /* SwaggerParameterSerialization.swift in Sources */,
+				A1D21C52248C2A9900BCE696 /* Filters+Numbers.swift in Sources */,
 				A1D21BCB248C24B700BCE696 /* SwaggerSecuritySchemeType.swift in Sources */,
 				A1D21BE9248C24B700BCE696 /* SwaggerSchemaDiscriminator.swift in Sources */,
 				A1D21BBF248C24B700BCE696 /* SwaggerError.swift in Sources */,
@@ -675,7 +801,6 @@
 				A1D21BB8248C24B700BCE696 /* AlamofireFileWriter.swift in Sources */,
 				A1D21C00248C24B700BCE696 /* SwaggerResponse.swift in Sources */,
 				A1D21BC7248C24B700BCE696 /* SwaggerOAuthFlow.swift in Sources */,
-				A1D21C0E248C24B700BCE696 /* GenerateCommand.swift in Sources */,
 				A1D21BCE248C24B700BCE696 /* SwaggerSecurityHTTPScheme.swift in Sources */,
 				A1D21BDD248C24B700BCE696 /* SwaggerSchemaMetadata.swift in Sources */,
 				A1D21BB1248C24B700BCE696 /* DefaultGenerator.swift in Sources */,
@@ -685,9 +810,11 @@
 				A1D21BD2248C24B700BCE696 /* KeyedDecodingContainerProtocol+Extensions.swift in Sources */,
 				A1D21BE7248C24B700BCE696 /* SwaggerSchemaXML.swift in Sources */,
 				A1D21BC4248C24B700BCE696 /* SwaggerDocumentNode.swift in Sources */,
+				A1D21C54248C2A9900BCE696 /* StencilSwiftTemplate.swift in Sources */,
 				A1D21BE5248C24B700BCE696 /* SwaggerIntegerFormat.swift in Sources */,
 				A1D21BD9248C24B700BCE696 /* Collection+Extensions.swift in Sources */,
 				A1D21BDE248C24B700BCE696 /* SwaggerStringFormat.swift in Sources */,
+				A1D21C4A248C2A9900BCE696 /* Filters+Strings.swift in Sources */,
 				A1D21BEA248C24B700BCE696 /* SwaggerArraySchema.swift in Sources */,
 				A1D21BF6248C24B700BCE696 /* SwaggerParameterStyle.swift in Sources */,
 				A1D21BE0248C24B700BCE696 /* SwaggerSchema.swift in Sources */,
@@ -704,16 +831,19 @@
 				A1D21BD7248C24B700BCE696 /* UnkeyedDecodingContainer+Extensions.swift in Sources */,
 				A1D21BDA248C24B700BCE696 /* SwaggerInfo.swift in Sources */,
 				A1D21BFE248C24B700BCE696 /* SwaggerSpec.swift in Sources */,
+				A1D21C53248C2A9900BCE696 /* CallMacroNodes.swift in Sources */,
 				A1D21BBE248C24B700BCE696 /* SwaggerEmbeddedExample.swift in Sources */,
+				A1D21C4E248C2A9900BCE696 /* Context.swift in Sources */,
 				A1D21BF9248C24B700BCE696 /* SwaggerParameterSchema.swift in Sources */,
 				A1D21BDF248C24B700BCE696 /* SwaggerIntegerSchema.swift in Sources */,
 				A1D21BFC248C24B700BCE696 /* SwaggerMediaType.swift in Sources */,
+				A1D21C4C248C2A9900BCE696 /* SetNode.swift in Sources */,
 				A1D21C02248C24B700BCE696 /* SwaggerComponentType.swift in Sources */,
-				A1D21C0F248C24B700BCE696 /* main.swift in Sources */,
 				A1D21C05248C24B700BCE696 /* SwaggerHeader.swift in Sources */,
 				A1D21BC6248C24B700BCE696 /* SwaggerExternalDocumentation.swift in Sources */,
 				A1D21BB7248C24B700BCE696 /* FileWriter.swift in Sources */,
 				A1D21C04248C24B700BCE696 /* SwaggerDocument.swift in Sources */,
+				A1D21C4B248C2A9900BCE696 /* Parameters.swift in Sources */,
 				A1D21BFB248C24B700BCE696 /* SwaggerParameter.swift in Sources */,
 				A1D21BED248C24B700BCE696 /* SwaggerNumberFormat.swift in Sources */,
 				A1D21BF1248C24B700BCE696 /* SwaggerRequestBodyEncoding.swift in Sources */,
@@ -730,6 +860,7 @@
 				A1D21C0B248C24B700BCE696 /* YAMLDecoder+CodingPath.swift in Sources */,
 				A1D21BB6248C24B700BCE696 /* ModelGenerator.swift in Sources */,
 				A1D21BDB248C24B700BCE696 /* SwaggerContactInfo.swift in Sources */,
+				A1D21C51248C2A9900BCE696 /* SwiftIdentifier.swift in Sources */,
 				A1D21BF8248C24B700BCE696 /* SwaggerParameterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -875,6 +1006,7 @@
 		};
 		A1D21B36248C1F5A00BCE696 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81010B99462B343C76FDF6B /* Pods-SwiftySwaggerPod.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -892,6 +1024,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -899,6 +1032,7 @@
 		};
 		A1D21B37248C1F5A00BCE696 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8D41A13B692BF355275ACC /* Pods-SwiftySwaggerPod.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -916,6 +1050,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kj.SwiftySwaggerPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -923,6 +1058,7 @@
 		};
 		A1D21B39248C1F5A00BCE696 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A3A83D1A1D0BF19C99404C /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -942,6 +1078,7 @@
 		};
 		A1D21B3A248C1F5A00BCE696 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508BE6257F7F37288E63EEB8 /* Pods-SwiftySwaggerPod-SwiftySwaggerPodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,7 +9,6 @@
 import Foundation
 import PathKit
 import Stencil
-import SwiftCLI
 
 class ModelGenerator: Generator {
 	let swagger: Swagger

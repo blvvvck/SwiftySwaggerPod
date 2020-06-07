@@ -6,15 +6,14 @@
 //
 
 import Foundation
-import SwiftCLI
 
 class DefaultReporter: Reporter {
 	func report(info: String) {
-		WriteStream.stdout <<< info
+		print(info)
 	}
 
 	static func report(info: String) {
 //        stdout <<< "Hey there, \(person)!"
-		WriteStream.stdout <<< info
+		print(info)
 	}
 }

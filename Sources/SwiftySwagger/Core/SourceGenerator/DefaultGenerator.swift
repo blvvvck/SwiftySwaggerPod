@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import StencilSwiftKit
 import Stencil
 import PathKit
 
